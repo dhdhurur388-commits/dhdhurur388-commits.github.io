@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simon FF TopUp - 2026</title>
+    <title>Simon Trusted TopUp - 2026</title>
     <style>
         body {
             background-color: #0b0f19;
@@ -25,19 +25,27 @@
             padding: 20px;
             text-align: center;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+            margin-top: 80px; /* লোগো কার্ডের ওপরে ভাসিয়ে রাখার জন্য জায়গা তৈরি */
         }
-        .avatar {
-            width: 70px;
-            height: 70px;
-            background-color: #ffffff;
-            color: #000000;
-            font-size: 28px;
+        /* লোগো বা ছবির স্টাইল */
+        .logo-container {
+            width: 150px; /* লোগোর সাইজ বড় করা হলো */
+            height: auto;
+            margin: -120px auto 10px auto; /* কার্ডের অনেক ওপরে ভাসিয়ে রাখার জন্য */
+            position: relative;
+            z-index: 10;
+        }
+        .logo-img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .shop-name {
+            color: #00d2ff;
+            font-size: 22px;
             font-weight: bold;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            margin: 0 auto 15px auto;
+            margin-bottom: 15px;
         }
         .header-box {
             background-color: #1a2238;
@@ -50,8 +58,8 @@
             font-weight: bold;
         }
         .title {
-            color: #00d2ff;
-            font-size: 20px;
+            color: #ffd700;
+            font-size: 18px;
             font-weight: bold;
             margin-bottom: 15px;
         }
@@ -112,7 +120,12 @@
 <body>
 
     <div class="card">
-        <div class="avatar">FF</div>
+        <!-- এখানে আপনার দেওয়া গেমিং লোগোটি বসানো হয়েছে -->
+        <div class="logo-container">
+            <img src="https://i.ibb.co.com/17WfF9P/gaming-logo.jpg" alt="Simon Trusted TopUp Logo" class="logo-img">
+        </div>
+        
+        <div class="shop-name">💎 Simon Trusted TopUp 💎</div>
         
         <div class="header-box">🤲 হালাল রিজিক, আল্লাহর রহমতে 🤲</div>
         
