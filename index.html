@@ -10,7 +10,7 @@
             color: #ffffff;
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,56 +20,87 @@
             background-color: #121826;
             border: 2px solid #ff4d4d;
             border-radius: 15px;
-            width: 90%;
-            max-width: 400px;
+            width: 100%;
+            max-width: 420px;
             padding: 20px;
             text-align: center;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
         }
         .avatar {
-            width: 80px;
-            height: 80px;
+            width: 70px;
+            height: 70px;
             background-color: #ffffff;
             color: #000000;
-            font-size: 32px;
+            font-size: 28px;
             font-weight: bold;
             display: flex;
             justify-content: center;
             align-items: center;
             border-radius: 50%;
-            margin: 0 auto 20px auto;
+            margin: 0 auto 15px auto;
+        }
+        .header-box {
+            background-color: #1a2238;
+            border: 1px solid #00d2ff;
+            border-radius: 8px;
+            padding: 8px;
+            margin-bottom: 15px;
+            font-size: 15px;
+            color: #00ffcc;
+            font-weight: bold;
         }
         .title {
             color: #00d2ff;
-            font-size: 24px;
+            font-size: 20px;
             font-weight: bold;
             margin-bottom: 15px;
         }
+        .item-list {
+            text-align: left;
+            background-color: #1a2238;
+            padding: 12px 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
         .item {
-            font-size: 18px;
-            margin: 10px 0;
+            font-size: 15px;
+            margin: 8px 0;
             color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px dashed rgba(255,255,255,0.1);
+            padding-bottom: 5px;
+        }
+        .bonus-box {
+            background-color: #221c10;
+            border: 1px solid #ffd700;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            color: #ffd700;
+            text-align: center;
         }
         .badge {
             color: #00ffcc;
             font-weight: bold;
-            margin: 15px 0;
-            font-size: 16px;
+            margin: 10px 0;
+            font-size: 14px;
         }
         .whatsapp-btn {
             display: block;
-            background-color: #e6e6e6;
-            color: #000000;
+            background-color: #25D366;
+            color: #ffffff;
             text-decoration: none;
             font-weight: bold;
             padding: 12px;
             border-radius: 8px;
-            margin-top: 20px;
+            margin-top: 15px;
             font-size: 16px;
             transition: 0.3s;
         }
         .whatsapp-btn:hover {
-            background-color: #ffffff;
+            background-color: #20ba5a;
         }
         .footer {
             margin-top: 15px;
@@ -83,19 +114,30 @@
     <div class="card">
         <div class="avatar">FF</div>
         
-        <div class="title">💎 Simon FF TopUp 💎</div>
+        <div class="header-box">🤲 হালাল রিজিক, আল্লাহর রহমতে 🤲</div>
         
-        <div class="item">• ১৭৫ ডায়মন্ড</div>
-        <div class="item">• ৬৫০ ডায়মন্ড</div>
+        <div class="title">💎 ডায়মন্ড প্যাকেজ লিস্ট 💎</div>
         
-        <div class="badge">✨ সততাই আমাদের ব্যবসা ✨</div>
-        
-        <div class="item">• ১৭৫ ডায়মন্ড</div>
-        <div class="item">• ৬৫০ ডায়মন্ড</div>
-        
-        <div class="badge">✨ সততাই আমাদের ব্যবসা ✨</div>
+        <div class="item-list">
+            <div class="item"><span>💠 100 💎</span> <span>40 টাকা</span></div>
+            <div class="item"><span>💠 350 💎</span> <span>135 টাকা</span></div>
+            <div class="item"><span>💠 500 💎</span> <span>200 টাকা</span></div>
+            <div class="item"><span>💠 1,000 💎</span> <span>250 টাকা</span></div>
+            <div class="item"><span>💠 1,990 💎</span> <span>420 টাকা</span></div>
+            <div class="item"><span>💠 2,500 💎</span> <span>650 টাকা</span></div>
+            <div class="item"><span>💠 3,000 💎</span> <span>800 টাকা</span></div>
+            <div class="item"><span>💠 5,000 💎</span> <span>1,500 টাকা</span></div>
+            <div class="item" style="border-bottom:none;"><span>🌙 Monthly Package</span> <span>620 টাকা</span></div>
+        </div>
 
-        <a href="https://wa.me/8801611845655" class="whatsapp-btn">হোয়াটসঅ্যাপে যোগাযোগ করুন</a>
+        <div class="bonus-box">
+            🎁 বড় প্যাকেজে বিশেষ বোনাস<br>
+            💎 প্রতি মাসে 1,000 ডায়মন্ড বোনাস!
+        </div>
+        
+        <div class="badge">✨ সাশ্রয়ী দাম • সুন্দর সার্ভিস • বিশ্বস্ততা ✨</div>
+
+        <a href="https://wa.me/8801611845655" class="whatsapp-btn">💬 হোয়াটসঅ্যাপে যোগাযোগ করুন</a>
         
         <div class="footer">© 2026 SIMON</div>
     </div>
