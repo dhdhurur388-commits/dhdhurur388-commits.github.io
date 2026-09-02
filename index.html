@@ -30,16 +30,19 @@
         }
         /* লোগো বা ছবির স্টাইল */
         .logo-container {
-            width: 150px; /* লোগোর সাইজ বড় করা হলো */
+            width: 150px; /* লোগোর সাইজ */
             height: auto;
             margin: -120px auto 10px auto; /* কার্ডের অনেক ওপরে ভাসিয়ে রাখার জন্য */
             position: relative;
             z-index: 10;
+            filter: drop-shadow(0 4px 10px rgba(255, 0, 0, 0.5)); /* লোগোতে লাল আভা */
         }
         .logo-img {
             width: 100%;
             height: auto;
             display: block;
+            border-radius: 50%; /* লোগো গোল রাখার জন্য */
+            border: 4px solid #ff4d4d; /* লোগোর চারপাশে লাল বর্ডার */
         }
         .shop-name {
             color: #00d2ff;
@@ -120,9 +123,9 @@
 <body>
 
     <div class="card">
-        <!-- এখানে আপনার দেওয়া গেমিং লোগোটি বসানো হয়েছে -->
+        <!-- এখানে আপনার সঠিক লোগোটি বসানো হয়েছে -->
         <div class="logo-container">
-            <img src="https://i.ibb.co.com/17WfF9P/gaming-logo.jpg" alt="Simon Trusted TopUp Logo" class="logo-img">
+            <img src="https://i.ibb.co/6nQJ3hN/simon-gaming-logo.jpg" alt="Simon Trusted TopUp Logo" class="logo-img">
         </div>
         
         <div class="shop-name">💎 Simon Trusted TopUp 💎</div>
